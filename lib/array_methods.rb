@@ -20,15 +20,15 @@ def find_max_value(array)
    p max
 end
 
-def find_min_value(array){
+def find_min_value(array)
   min = 10000000000
-  array.length.times { |count|
-    if array[count] < min {
+  array.length.times do |count|
+    if array[count] < min
       min = array[count]
       count += 1
-    } else{
+    else
       count += 1
-    }
-  }
+    end
+  end
    p min
-}
+end
